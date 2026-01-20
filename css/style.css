@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-fonts{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1A0B2E;
+    padding: 30px;
+}
+
+.logo {
+    color: #ffff;
+    display: block;
+    width: fit-content;
+    text-align: center;
+}
+.logo-color {
+    background: linear-gradient(to top, #F7E93F, #FB09B4, #9100F8);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.side-menu img {
+    display: none;
+    cursor: pointer;
+    
+}
+
+nav {
+    max-width: 1600px;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 32px;
+
+}
+
+nav .menu a {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 152%;
+}
+
+.btn {
+    background: linear-gradient(to top, #F7E93F, #FB09B4, #9100F8);
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #ffff;
+    cursor: pointer;
+    
+}
+
+/*small device responsive*/
+@media screen and (max-width:576px){
+    .logo {
+    color: #ffff;
+    display: block;
+    width: fit-content;
+    text-align: center;
+}
+.logo-color {
+    background: linear-gradient(to top, #F7E93F, #FB09B4, #9100F8);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+nav .menu {
+    display: none;
+}
+.btn {
+    display: none;
+}
+nav .side-menu img {
+    display: block;
+}
+
+}
+
