@@ -87,6 +87,9 @@ nav .menu a {
     background-clip: text;
     -webkit-background-clip: text;
 }
+nav{
+    width: 100%;
+}
 nav .menu {
     display: none;
 }
