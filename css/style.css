@@ -251,6 +251,45 @@ nav .menu {
 nav .side-menu img {
     display: block;
 }
+#banner {
+    background-size: cover;
+    height: auto;
+    min-height: 100vh;
+}
+.banner-icon {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin: 0 auto 100px;
+    margin-bottom: 24px;
+}
+.bedge {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    background: #00ff88;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 1000px;
+    box-shadow: 0 0 10px #00ff88;
+}
+.banner-title {
+    font-size: 2.5rem;
+    margin-bottom: 8px;
+}
+.banner-slogan {
+    font-size: 1rem;
+    margin-bottom: 24px;
+    width: 400px;
+    height: 38px;
+}
+#banner .button {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
 
 }
 
